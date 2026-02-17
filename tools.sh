@@ -15,10 +15,6 @@ echo "UPDATE VE UPGRADE İŞLEMLERİ YAPILIYOR"
 sudo apt update && sudo apt upgrade
 sleep 2s
 
-echo "SAAT VE TARIH DUZENLENIYOR"
-sudo timedatectl set-timezone Europe/Istanbul
-sleep 2s
-
 echo "HTOP YAZILIMI KURULUYOR"
 
 sudo apt install -y htop
